@@ -123,7 +123,7 @@ h3 {
 }
 
 ul.data li p {
-    color: white;
+    color: rgb(226, 224, 224);
     font-weight: bold;
     font-size: 1.8em;
     margin: .3em 0 1em;
@@ -139,9 +139,6 @@ ul.secondary li p {
     font-size: 1.3em;
 }
 
-main {
-    border: 1px solid white;
-}
 
 
 /* Your Fixes Below */
@@ -257,6 +254,11 @@ nav {
     nav {
         width: 40%;
     }
+    div.col > p {
+        color: #A5B2D3;
+        border-left: 2px solid #A5B2D3;
+        padding-left: 1em;
+    }
 }
 
 @media (min-width: 720px) {
@@ -278,7 +280,6 @@ nav {
     nav {
         width: 30%;
     }
-    
 }
 
 @media (min-width: 850px) {
@@ -293,7 +294,8 @@ nav {
     }
     
     header, main {
-        padding: 1.5em;
+        padding: 2.5em 1.5em ;
+        border-bottom: 1px solid #A5B2D3;
     }
     
     nav {
@@ -320,6 +322,17 @@ nav {
     svg {
         display: none;
     }
+
+    header .cta-btn {
+        padding: .5em, 1em;
+        font-size: 1.2em;
+    }
+    header .logo {
+        font-size: 1.7em;
+    }
+
+
+    
 }
 
 
@@ -349,4 +362,5 @@ nav {
     background-color: #E6E6E6;
     padding: .3em;
     font-size: .85em;
+    color: #000;
 }
